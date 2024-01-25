@@ -56,7 +56,7 @@ function appendPosts() {
       <p class="comment">
         <span>${post.username}</span> ${post.comment}
       </p>
-      <div class="temp"></div>
+    <hr/>
     `;
 
     postsContainer.appendChild(postElement);
