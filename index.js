@@ -48,7 +48,7 @@ function appendPosts() {
         <img class="img" src="${post.post}" />
       </div>
       <div class="post-footer">
-        <img src="/images/icon-heart.png"  class="post-footer-img" />
+        <img src="/images/icon-heart.png"  class="post-footer-img" style="color: red;" />
         <img src="/images/icon-comment.png"  class="post-footer-img" />
         <img src="/images/icon-dm.png"  class="post-footer-img" />
       </div>
@@ -64,4 +64,4 @@ function appendPosts() {
 }
 
 // Call the function to append posts when the page loads
-appendPosts();
+document.addEventListener("DOMContentLoaded", appendPosts);
