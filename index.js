@@ -64,4 +64,4 @@ function appendPosts() {
 }
 
 // Call the function to append posts when the page loads
-document.addEventListener("DOMContentLoaded", appendPosts);
+appendPosts();
